@@ -40,7 +40,7 @@ with open(os.path.join(UNISWAP_MODULE_DIR, 'abi/str_erc_20.abi')) as in_f:
 with open(os.path.join(UNISWAP_MODULE_DIR, 'abi/str_caps_erc_20.abi')) as in_f:
     STR_CAPS_ERC_20_ABI = json.load(in_f)
 
-UNISWAP_FACTORY_ADDRESS = '0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95'
+UNISWAP_FACTORY_ADDRESS = '0xcd263695DC071D459D875b21494700f748835bcD'
 
 uniswap_factory = web3.eth.contract(abi=UNISWAP_FACTORY_ABI, address=UNISWAP_FACTORY_ADDRESS)
 
